@@ -1,4 +1,6 @@
-""" By: Brandon Troche
+""" Copyright (c) 2015 Apportable. All rights reserved.
+
+	By: Brandon Troche
 	Date Completed: 07/08/2016
 	Github: https://github.com/BrandonTroche
 
@@ -59,6 +61,8 @@ def main():
 			print "Pivot point: " + str(pivotPoint)		#Debugging purposes
 			print "Total: " + str(total)		#Debugging purposes	
 		else:		#Else: Or rather if the right adjacent value is larger instead as there are only two cases
+
+
 			total += int(trianglePoints[pivotPoint[0]+1][pivotPoint[1]+1])		#Add the right value to the total
 			pivotPoint = [pivotPoint[0] + 1, pivotPoint[1] + 1]		#And then set the pivot point to the point of the right value
 			print "Pivot point: " + str(pivotPoint)		#Debugging purposes
