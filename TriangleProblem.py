@@ -16,6 +16,11 @@
 """
 import sys
 
+__author__ = "Brandon Troche"
+__copyright__ = "Copyright 2016"
+__maintainer__ = "Brandon Troche"
+__email__ = "bttroche@gmail.com"
+
 def main():
 	triangle = open('triangle.txt', 'r')	#File i/o
 	#triangle = open('test.txt', 'r')
